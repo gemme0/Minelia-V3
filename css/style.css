@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #0d0c22;;
+    color: #f8f9fa;
+}
+
+/* haut de page*/
+
+header {
+    display: block;
+    unicode-bidi: isolate;
+    width: auto;
+    
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    box-shadow: 1px 1px 12px rgb(7, 0, 214);
+    padding-block: 35px;
+    width: auto;
+    position: fixed;
+    backdrop-filter: blur(8px);
+    
+}
+
+.jamai{
+    visibility: hidden;
+    min-width: 500px;
+    display: flex;
+}
+
+.haut1{
+    display: flex;
+    position: absolute;
+    top: 20px;
+    font-size: 30px;
+    padding-inline-start: 100px;
+}
+.haut2 ul{
+    width: 500px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.haut2 li{
+    font-size: large;
+    text-align: center;
+    
+}
+
+.invisible {
+    display: none;
+}
+.active.invisible {
+    display: block;
+    box-shadow: 1px 1px 12px rgb(7, 0, 214);
+    position: fixed;
+    padding-right: 50%;
+    padding-left: 49%;
+    top: 75px;
+    backdrop-filter: blur(8px);
+}
+
+.toggle-button {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    color: #f8f9fa;
+    font-size: 24px;
+    cursor: pointer; 
+}
+
+.tablette{
+    visibility: hidden;
+}
+
+.cache-item{
+    text-align: center;
+    padding: 12px 0;
+}
+
+a{
+    text-decoration: none;
+    color: #f8f9fa;
+}
+
+li{
+    list-style-type: none;
+}
+
+main{
+    padding-top: 200px;
+
+}
+
+/* body */
+
+section.pres{
+    display: flex;
+    flex-direction: row;
+    padding: 100px;
+    padding-top: 0px;
+}
+
+.pres img{
+    margin: 30px;
+}
+
+.Actualites h1{
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 100px;
+}
+
+.Actualites .bouton{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 100px;
+    width: 100%;
+}
+
+.actu-jamai{
+    display: none;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    padding-left: 200px;
+}
+
+.actu{
+    padding-right: 50px;
+}
+
+.actu img{
+    position: static;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 1px 1px 12px rgba(40, 28, 28, 0.882);
+    border-radius: 5px;
+    width: 200px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* footer */
+
+footer{
+    padding-top: 100px;
+    margin: 50px;
+}
+
+footer li{
+    unicode-bidi: isolate;
+}
+
+footer .f1{
+    width: 50%;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.f2{
+    padding-left: 200px;
+}
+
+.flex2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.mt-1{
+    padding: 15px;
+}
+
+footer .Copyright{
+    padding-top: 30px;
+}
+
+/*preparation*/
+
+.preparation{
+    text-align: center;
+    font-size: 50px;
+}
